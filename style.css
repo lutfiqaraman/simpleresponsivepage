@@ -9,6 +9,26 @@ img {
     height: auto;
 }
 
+.page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px; /* Half size of your logo */
+}
+
+.menu {
+    margin: 90px auto 10px;
+}
+
+
 ul {
     font-size: 100%;
     width: 75%;
@@ -19,6 +39,10 @@ ul {
 li {
     display: inline;
     margin: 0 8px;
+}
+
+.borders {
+    border-bottom: 3px solid #000000;
 }
 
 p {
@@ -46,29 +70,6 @@ footer {
 
 footer li {
     padding: 0 35px;
-}
-
-.borders {
-    border-bottom: 3px solid #000000;
-}
-
-.logo {
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-left: -150px; /* Half size of your logo */
-}
-
-.page {
-    max-width: 940px;
-    min-width: 720px;
-    margin: 10px auto;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-.menu {
-    margin: 90px auto 10px;
 }
 
 .social .facebook a:hover {
