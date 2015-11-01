@@ -8,9 +8,9 @@
 	2. Main menu
 	3. Page layout
 	4. Logo
-	4. Footer
-	5. Tablet stylesheet
-	6. Mobile stylesheet
+	5. Footer
+	6. Tablet stylesheet
+	7. Mobile stylesheet
 */
 
 
@@ -119,7 +119,7 @@ a:hover, a.on {
 
 
 /*------------------------------------------------------------------
-    4. Footer
+    5. Footer
 */
 
 footer {
@@ -147,7 +147,7 @@ footer li {
 }
 
 /*------------------------------------------------------------------
-    5. Tablet stylesheet
+    6. Tablet stylesheet
 */
 
 @media (max-width: 780px) {
@@ -164,7 +164,7 @@ footer li {
 
 
 /*------------------------------------------------------------------
-    6. Mobile stylesheet
+    7. Mobile stylesheet
 */
 
 @media (max-width: 480px) {
