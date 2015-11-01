@@ -1,0 +1,115 @@
+body {
+    font-size: 100%;
+    letter-spacing: 0.15em;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    font-size: 100%;
+    width: 75%;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+li {
+    display: inline;
+    margin: 0 8px;
+}
+
+p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto;
+    font-weight: normal;
+}
+
+a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+    color: #ff0000;
+    background-color: #ffffff;
+}
+
+footer {
+    border-top: 3px solid #000000;
+}
+
+footer li {
+    padding: 0 35px;
+}
+
+.borders {
+    border-bottom: 3px solid #000000;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px; /* Half size of your logo */
+}
+
+.page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.menu {
+    margin: 90px auto 10px;
+}
+
+.social .facebook a:hover {
+    color: #3b5998;
+}
+
+.social .linkedin a:hover {
+    color: #0077b5;
+}
+
+.social .twitter a:hover {
+    color: #55acee;
+}
+
+.social .google-plus a:hover {
+    color: #d34836;
+}
+
+
+@media (max-width: 780px) {
+
+    * {
+        max-width: 600px !important;
+    }
+
+    .page {
+        max-width: 600px !important;
+        min-width: 600px !important;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    * {
+        max-width: 275px !important;
+    }
+
+    .page {
+        max-width: 275px !important;
+        min-width: 275px !important;
+    }
+}
+
